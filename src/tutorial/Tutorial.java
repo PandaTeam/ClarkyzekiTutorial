@@ -32,5 +32,7 @@ public class Tutorial
 		tutorialItem = new ItemTutorial(5000).setUnlocalizedName("tutorialItem");
 		
 		LanguageRegistry.addName(tutorialItem, "Tutoiral Item");
+		
+		TutorialCrafting.loadRecipes();
 	}
 }
